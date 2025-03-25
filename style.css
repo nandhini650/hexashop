@@ -1,0 +1,481 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+font-family: sans-serif;
+overflow: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: sticky;
+}
+nav img
+{
+    margin-left: 130px;
+    
+}
+ul{
+    display: flex;
+    margin-right: 140px;
+
+}
+ul li{
+    margin-left: 25px;
+    color: #1E1E1E;
+}
+ul li a{
+    color: #1E1E1E;
+    font-weight:600;
+    letter-spacing: 1px;
+}
+ ul #ash
+ {
+    color: #AAAAAA;
+ }
+ ul li a:hover{
+    color: #AAAAAA;
+    cursor: pointer;
+ }
+ hr{
+    border: 1.5px dotted rgb(151, 150, 150);
+    
+ }
+ .fa-solid.fa-bars{
+    display: none;
+ }
+ .container 
+ {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    z-index: -1;
+    
+ }
+ .container .c1
+ {
+    background-image: url(left-banner-image.jpg);
+    width: 98%;
+    height: 100vh;
+    background-size: cover;
+ }
+ .container .c1 h2{
+    font-size: 52px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+ }
+ .container .c1 p{
+   font-size: 16px;
+   color: white;
+  text-align: center;
+   padding: 15px;
+ }
+ .container .c1 button
+ {
+    padding: 12px;
+    font-size: 14px;
+    border:1px solid rgb(247, 247, 247);
+    background: none;
+    color: white;
+    margin-left: 40%;
+    margin-top: 10px;
+ }
+ .container .c1 button:hover{
+    color: black;
+    background-color: white;
+    border: none;
+    cursor:pointer;
+}
+
+ .container .c2
+ {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+ }
+ .c2 .c21
+ {
+    background-image: url(baner-right-image-01.jpg);
+    overflow: hidden;
+    background-size: cover;
+ }
+ .c2 .c22
+ {
+    background-image: url(baner-right-image-02.jpg);
+    overflow: hidden;
+    background-size: cover;
+ }
+ .c2 .c23
+ {
+    background-image: url(baner-right-image-03.jpg);
+    overflow: hidden;
+    background-size: cover;
+ }
+ .c2 .c24
+ {
+    background-image: url(baner-right-image-04.jpg);
+    overflow: hidden;
+    background-size: cover;
+ }
+.c2 h2
+{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 125px;
+}
+.c2 p{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.con h1
+{
+    padding: 20px 0px 0px 20px;
+}.con p
+{
+   padding: 5px;
+    margin-left: 15px;
+    color: #AAAAAA;
+}
+.container2
+{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 450px 450px 450px ;
+    grid-template-rows: 500px ; 
+    gap: 10px;
+    padding: 20px;
+    
+}
+.container2 .img
+{
+    border: 1px solid none;
+    
+}
+.img.img1 img{
+    height: 400px;
+    width: 100%;
+}
+.img.img2 img{
+    height: 400px;
+    width: 100%;
+}
+.img.img3 img{
+    height: 400px;
+    width: 100%;
+}
+.container2 .star
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.fa-solid.fa-star
+{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.container2 h3{
+    color: rgb(144, 142, 142);
+    font-size: 20px;
+    padding-top: 10px;
+}
+.container3
+{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 450px 450px 450px ;
+    grid-template-rows: 500px ; 
+    gap: 10px;
+    padding: 20px;
+}
+.container3 .star
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.img.pic1 img{
+    height: 400px;
+    width: 100%;
+}
+.img.pic2 img{
+    height: 400px;
+    width: 100%;
+}
+.img.pic3 img{
+    height: 400px;
+    width: 100%;
+}
+.container3 h3{
+    color: rgb(144, 142, 142);
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+
+
+
+ @media(max-width:1113px)
+ {
+    ul li{
+        margin-left: 10px;
+        color: #1E1E1E;
+    }
+    ul li a {
+        font-size: 15px;
+    }
+  
+ }
+ @media(max-width:991px)
+ {
+    ul li {
+    display: none;
+    }
+    .fa-solid.fa-bars
+    {
+        display: block;
+        margin-right: 130px;
+        font-size: 20px;
+    }
+    .container .c2
+    {
+       display: grid;
+       grid-template-columns: 90% ;
+       grid-template-rows: 450px 450px 450px 450px ;
+       gap: 10px;
+       margin-left: 85px;
+     
+    }
+    .container 
+    {
+       display: grid;
+       grid-template-columns: 1fr ;
+       gap: 10px;
+       padding: 20px;
+       z-index: -1;
+       height: auto;
+       
+    }
+    .container .c1
+    {
+        margin-left: 10px;
+    }
+   
+    .container .c1 p{
+        margin-left: 0%;
+     }
+     .container .c1 button 
+     {
+        margin-left: 42%;
+     }
+     .container2
+{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 450px  ;
+    grid-template-rows: 500px ; 
+    gap: 10px;
+    padding: 20px;
+    margin-left: 25%;
+    
+}
+.container3
+{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 450px  ;
+    grid-template-rows: 500px ; 
+    gap: 10px;
+    padding: 20px;
+    margin-left: 25%;
+    
+}
+
+ }
+ @media(max-width:767px)
+ {
+    .fa-solid.fa-bars
+    {
+        display: block;
+        margin-right: 130px;
+        font-size: 20px;
+    }
+ }
+ @media(max-width:575px)
+ {
+    nav img
+{
+    margin-left: 15%;
+    
+}
+    
+    .fa-solid.fa-bars
+    {
+        display: block;
+        margin-right: 15%;
+        font-size: 20px;
+    }
+    .container .c2
+    {
+        margin-left: 55px;
+        display: grid;
+        grid-template-columns: 90% ;
+        grid-template-rows: 250px 250px 250px 250px ;
+        gap: 10px;
+        
+    }
+    .container .c1
+    {
+       background-image: url(left-banner-image.jpg);
+       width: 98%;
+       height: 500px;
+       object-fit: cover;
+       background-size: cover;
+    }
+    .container 
+    {
+       display: grid;
+       grid-template-columns: 1fr ;
+       
+       gap: 10px;
+       padding: 20px;
+       z-index: -1;
+       height: auto;
+       
+    }
+    .container .c1 h2 
+    {
+        font-size: 40px;
+    }
+    .container2
+    {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 450px  ;
+        grid-template-rows: 500px ; 
+        gap: 10px;
+        padding: 10px;
+        margin-left: 7%;
+        
+    }
+    .container3
+    {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 450px  ;
+        grid-template-rows: 500px ; 
+        gap: 10px;
+        padding: 10px;
+        margin-left: 7%;
+        
+    }
+    .img.img1 img{
+        height: 400px;
+        width: 100%;
+        
+    }
+    .container3
+    {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 450px  ;
+        grid-template-rows: 500px ; 
+        gap: 10px;
+        padding: 20px;
+        margin-left: 7%;
+        
+    }
+    .container .c1 button 
+    {
+        margin-left: 45px;
+    }
+  
+    
+    
+
+    
+ }
+ @media(max-width:460px)
+ {
+    nav img {
+          margin-left: 22px;
+    }
+    .fa-solid.fa-bars
+    {
+        display: block;
+        margin-right: 150px;
+        font-size: 20px;
+    }
+    .container .c1 button 
+    {
+        margin-left: 105px;
+    }
+    
+    .container2
+    {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 350px  ;
+        grid-template-rows: 500px ; 
+        gap: 10px;
+        
+        margin-left: 7%;
+        
+    }
+    .container3
+    {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 350px  ;
+        grid-template-rows: 500px ; 
+        gap: 10px;
+        padding: 20px;
+        margin-left: 7%;
+        
+    }
+ }
+ @media( max-width:380px)
+ {
+    .container2
+    {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 300px  ;
+        grid-template-rows: 500px ; 
+        gap: 10px;
+        padding: 20px;
+        margin-left: 7%;
+        
+    }
+    .container3
+    {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 300px  ;
+        grid-template-rows: 500px ; 
+        gap: 10px;
+        padding: 20px;
+        margin-left: 7%;
+        
+    }
+    .fa-solid.fa-bars
+    {
+      position: absolute;
+      margin-left: 300px;
+    }
+    
+ }
